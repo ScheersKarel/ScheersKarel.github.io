@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broodjes Van Eden |Specialiteiten</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link href="../../dist/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Lora&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+<div class="bg-customGray page page-enter ">
+     <!--header-->
+     <div class="grid grid-cols-3 lg:hidden font-lora">
+        <div class="mt-8 ml-3 hamburger-icon" style="cursor: pointer;">
+            <iconify-icon icon="ci:hamburger-lg" style="color: #7a2d2d;" width="50" height="50"></iconify-icon>
+        </div>
+        <div class="mt-5"><img src="../images/logo.webp" alt=""></div>
+        <div class="mt-8 justify-self-end mr-5">
+           <a href="../pages/winkelwagen.php"> <img src="../images/shoppingCartSmall.webp" alt="logo"></a>
+        </div>
+    </div>
+
+      <!--nav-->
+      <div id="navbar" class="bg-customGray m-auto text-center text-gray-500 lg:hidden font-lora" >
+        <div class="hidden lg:block">
+            <img src="../images/logo.webp" alt="logo broodjes van eden" >
+        </div>
+        <div class="font-light lg:col-span-4 lg:my-auto lg:text-base">
+            <ul class="m-auto w-full lg:grid lg:grid-cols-7 lg:gap-2 ">
+                <li class="py-2  hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/home.php">Home</a> </li>
+                <li class="py-2 hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/bestellen.php">Bestel Nu</a> </li>
+                <li class="py-2  hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/ontbijtservice.php">Ontbijtservice</a> </li>
+                <li class="py-2  hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/meetingformules.php">Meetingformules</a> </li>
+                <li class="py-2 hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/galerij.php">Galerij</a> </li>
+                <li class="py-2 hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/contact.php">Contact</a> </li>
+                <div class="hidden lg:block m-auto">
+                    <img class="" src="../images/shoppingCartSmall.webp" alt="shoppingCartSmall">
+                </div>
+            </ul>
+           
+        </div>
+    </div>
+
+    <div class="hidden bg-customGray m-auto text-center text-gray-500 lg:grid lg:grid-cols-5 lg:gap-4 font-light" >
+        <div class="hidden lg:block">
+            <img src="../images/logo.webp" alt="logo">
+        </div>
+        <div class="lg:col-span-4 lg:my-auto lg:text-base">
+            <ul class="m-auto w-full lg:grid lg:grid-cols-7 lg:gap-2 ">
+                <li class="py-2  hover:border-b-2 border-customRed transition-all "><a href="../pages/home.php">Home</a> </li>
+                <li class="py-2 hover:border-b-2 border-customRed transition-all "><a href="../pages/bestellen.php">Bestel Nu</a> </li>
+                <li class="py-2  hover:border-b-2 border-customRed transition-all "><a href="../pages/ontbijtservice.php">Ontbijtservice</a> </li>
+                <li class="py-2  hover:border-b-2 border-customRed transition-all "><a href="../pages/meetingformules.php">Meetingformules</a> </li>
+                <li class="py-2 hover:border-b-2 border-customRed transition-all "><a href="../pages/galerij.php">Galerij</a> </li>
+                <li class="py-2 hover:border-b-2 border-customRed transition-all "><a href="../pages/contact.php">Contact</a> </li>
+                <div class="hidden lg:block m-auto">
+                    <a href="../pages/winkelwagen.php"><img class="" src="../images/shoppingCartSmall.webp" alt="logo"></a>
+                </div>
+            </ul>
+           
+        </div>
+    </div>
+        <!--Eind nav-->
+    <div class="border-t-2 border-customRed"></div>
+   <div class="lg:grid lg:grid-cols-4">
+    <div class=" lg:mx-auto lg:w-3/4">
+        <!-- Title -->
+       
+        <div class="w-4/5 m-auto my-16">
+            <h1 class="text-3xl">SPECIALITEITEN</h1>
+        </div>
+
+        <!-- Filter/search -->
+        <div class="grid grid-cols-2 gap-4 text-center">
+            <div id="filterIcon" class="grid grid-cols-2 mt-2 ml-10 lg:hidden">
+                <h2 class="text-customRed text-xl -ml-4 cursor-pointer">FILTER</h2>
+                <iconify-icon class="mt-1 cursor-pointer" icon="ep:arrow-down" style="color: #7a2d2d;" width="20" height="20"></iconify-icon>
+            </div>
+            <div class="grid grid-cols-4 w-full">
+            <div class="flex items-center col-span-3 ml-6">
+                    <input type="text" class="py-2 px-4 focus:outline-none rounded-3xl border border-customRed" placeholder="Zoeken...">
+                    <button class="py-2 px-4 rounded-md -ml-12 mt-1">
+                        <iconify-icon   iconify-icon icon="teenyicons:search-outline" style="color: #7a2d2d;" width="20" height="20"></iconify-icon>
+                    </button>
+            </div>
+            </div>
+            
+        </div>
+
+        <!-- Filter -->
+        <div class="w-3/4 ml-12 hidden lg:block lg:mt-10 lg:ml-4" id="filterSection">
+            <table class="w-1/2 lg:w-1/6  border-separate border-spacing-4	" >
+                <tr>
+                    <td><input type="checkbox" name="filter" id="kaas" class="w-5 h-5"></td>
+                    <td><label for="kaas">Kaas</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="filter" id="vlees" class="w-5 h-5"></td>
+                    <td><label for="vlees">Vlees</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="filter" id="kip" class="w-5 h-5"></td>
+                    <td><label for="kip">Kip</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="filter" id="vis" class="w-5 h-5"></td>
+                    <td><label for="vis">Vis</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="filter" id="natuur" class="w-5 h-5"></td>
+                    <td><label for="natuur">Natuur</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="filter" id="zoet" class="w-5 h-5"></td>
+                    <td> <label for="zoet">Zoet</label></td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- back  -->
+        <a href="./bestellen.php">
+        <div class="flex items-center w-4/5 m-auto mt-10 lg:ml-4">
+            
+            <iconify-icon class=" lg:ml-4" icon="material-symbols-light:arrow-back" style="color: #7a2d2d;" width="30" height="30"></iconify-icon>
+            <p class="font-semibold ">CATEGORIEËN</p>
+            
+        </div>
+        </a>
+
+    </div>
+        <!-- Product Cards -->
+    <div class=" lg:grid lg:grid-cols-2 col-span-3 lg:w-4/5 lg:m-auto">
+        <!--Bacon Royale-->
+        <div class="catogorieCard">
+            <p class="catogorieCardTitle">Bacon Royale</p>
+            <p class="font-light">Gebakken spek, cheesespread, rucola, tomaat, rode pesto</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <a href="./extras.php" class="catogorieCardIcon "  style="cursor: pointer;">
+                    <iconify-icon icon="ei:plus" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </a>
+            </div>
+        </div>
+
+        <!--Boerenhap-->
+        <div class="catogorieCard">
+            <p class="catogorieCardTitle">Boerenhap</p>
+            <p class="font-light">Aardappelsla, ijsberg, tomaat, spek, BBQ-saus, ui</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <div class="catogorieCardIcon">
+                <iconify-icon icon="ei:plus" class="extras" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </div>
+            </div>
+        </div>
+
+        <!--Chicken Appel-Curry-->
+        <div class="catogorieCard">
+            <p class="catogorieCardTitle">Chicken Appel-Curry</p>
+            <p class="font-light">Gebakken kip, appel, kaneel, sojascheuten, currysaus</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <a href="./extras.php" style="cursor: pointer;" class="catogorieCardIcon">
+                <iconify-icon icon="ei:plus" class="extras" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </a>
+            </div>
+        </div>
+
+         <!--Chicken Hawaii-->
+         <div class="catogorieCard">
+            <p class="catogorieCardTitle">Chicken Hawaii</p>
+            <p class="font-light">Gebakken kip, ananas, cocktailsaus, sojascheuten</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <a href="./extras.php" style="cursor: pointer;" class="catogorieCardIcon">
+                <iconify-icon icon="ei:plus" class="extras" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </a>
+            </div>
+        </div>
+        
+        <!--Fitness Phila-->
+        <div class="catogorieCard">
+            <p class="catogorieCardTitle">Fitness Phila</p>
+            <p class="font-light">Philadelphia, ijsberg, tomaat, ui, curry ketchup</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <a href="./extras.php" style="cursor: pointer;" class="catogorieCardIcon">
+                <iconify-icon icon="ei:plus" class="extras" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </a>
+            </div>
+        </div>
+       
+         <!--Fris Kipke-->
+         <div class="catogorieCard">
+            <p class="catogorieCardTitle">Fris Kipke</p>
+            <p class="font-light">Kip-curry, ananas, tuinkers</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <a href="./extras.php" style="cursor: pointer;" class="catogorieCardIcon">
+                <iconify-icon icon="ei:plus" class="extras" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </a>
+            </div>
+        </div>
+
+        <!--Fris Viske-->
+        <div class="catogorieCard">
+            <p class="catogorieCardTitle">Fris Viske</p>
+            <p class="font-light">Tonijnsla, perzik, tuinkers</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <a href="./extras.php" style="cursor: pointer;" class="catogorieCardIcon">
+                <iconify-icon icon="ei:plus" class="extras" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </a>
+            </div>
+        </div>
+
+         <!--Hollands Broodje-->
+         <div class="catogorieCard">
+            <p class="catogorieCardTitle">Hollands Broodje</p>
+            <p class="font-light">Boulet, sla, tomaat, ui, BBQ-saus</p>
+
+            <div class="catogorieCardBottomContainer">
+                <div class="catogorieCardIconContainer">
+                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/egg.webp" alt="ei">
+                    <img src="../images/nuts.webp" alt="noten">
+                </div>
+                <p class="catogorieCardPrice ">€5.00</p>
+                <a href="./extras.php" style="cursor: pointer;" class="catogorieCardIcon">
+                <iconify-icon icon="ei:plus" class="extras" style="color: #7a2d2d;" width="40" height="40"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+        <!-- paginate -->
+        <div class="grid grid-cols-6 gap-5 w-2/3 m-auto mt-10 lg:w-1/4">
+        
+        <iconify-icon icon="ep:arrow-left" style="color: #7a2d2d;" width="20" height="20" ></iconify-icon>
+        <div class="text-customRed"><u>1</u></div>
+        <div class="text-customRed">2</div>
+        <div class="text-customRed">3</div>
+        <div class="text-customRed">4</div>
+        <iconify-icon icon="ep:arrow-right"  style="color: #7a2d2d;" width="20" height="20"></iconify-icon>
+
+        </div>
+
+
+        <div class="font-lora">
+    
+    <div class="border-b-2 mt-20 border-gray-600 shadow-xl">  </div>
+
+    <div class="m-auto mb-20 lg:grid lg:grid-cols-3">
+        <!--div openingsuren en tabel-->
+            <div class="text-left mt-20 lg:mt-20 lg:border-r-2 w-4/5 m-auto border-customRed lg:w-full" >
+                <h2 class="font-semibold text-xl w-2/3 m-auto">Openingsuren</h2>
+
+                <table class="w-2/3 m-auto mt-10 text-gray-600 ">
+                    <tr>
+                        <td>maandag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>dinsdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>woensdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>donderdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>vrijdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>zaterdag</td>
+                        <td>Gesloten</td>
+                    </tr>
+                    <tr>
+                        <td>zondag</td>
+                        <td>Gesloten</td>
+                    </tr>
+                </table>
+                <div class="border-b-2 rounded-md mt-10 w-5/6 m-auto border-customRed shadow-xl lg:hidden"></div>
+
+            </div>
+
+          
+            
+            <div class="text-center mt-20 lg:mt-20 lg:border-r-2  w-5/6 m-auto border-customRed lg:w-full">
+                <h3 class="text-xl mb-10 font-semibold">Contact</h3>
+                <span>Edenplein 15, <br>2610 Wilrijk</span>
+                <br>
+               <p class=" mt-8"> +32 3 772 19 63</p> 
+               <br>
+                <p class="mt-6 text-customRed" ><u><a href="mailto:contact@broodjesvaneden.be" > contact@broodjesvaneden.be</a></u></p> 
+                <div class="border-b-2 rounded-md mt-10 w-5/6 m-auto border-customRed shadow-xl lg:hidden "></div>
+                
+            </div>
+            
+            <div class="w-3/4 mx-auto h-fit">
+                <h3 class="font-semibold text-xl mb-10 mt-20 w-2/3 m-auto">Sociale Media</h3>
+                
+                    <table class="w-2/3 m-auto">
+                        <tr>
+                            
+                            <td><a href="https://www.facebook.com/broodjesvaneden?locale=nl_NL"><iconify-icon class="p-3 border-2 rounded-xl border-customRed" icon="iconoir:facebook" style="color: #7a2d2d;" width="20" height="20"></iconify-icon></a></td>
+                            <td><p class="flex justify-self-end"><a href="https://www.facebook.com/broodjesvaneden?locale=nl_NL">Broodjes Van Eden</a></p></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                               <a href="https://www.instagram.com/broodjesvaneden/"> <iconify-icon class="mt-3 p-3 border-2 rounded-xl border-customRed" icon="bi:instagram" style="color: #7a2d2d;" width="20" height="20"></iconify-icon></a>
+                            </td>
+                            <td><a href="https://www.instagram.com/broodjesvaneden/"><p class="flex justify-self-end">broodjesvaneden</p></a></td>
+                        </tr>
+                    </table>
+           
+
+            </div>
+            
+    </div>
+    <div class="grid grid-cols-3  bg-customRed w-full m-auto text-white text-center py-4 text-">
+        <div><a href="../pages/algemeneVoorwaarde.php">Algemene voorwaarden</a></div>
+        <div>Cookie policy</div>
+        <div>Privacy policy</div>
+    </div>
+   
+</div>
+</div>
+</body>
+</html>
+<script src="../../dist/script.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
