@@ -49,7 +49,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -69,7 +69,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -87,7 +87,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -105,7 +105,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -124,7 +124,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -142,7 +142,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -161,7 +161,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -183,7 +183,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -204,7 +204,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -226,7 +226,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -246,7 +246,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -266,7 +266,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -286,7 +286,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -307,7 +307,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -327,7 +327,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -347,7 +347,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -367,7 +367,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -388,7 +388,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
                 <p class="catogorieCardPrice ">€2,00</p>
@@ -407,7 +407,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
                 <p class="catogorieCardPrice ">€2,80</p>
@@ -426,7 +426,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
                 <p class="catogorieCardPrice ">€3,00</p>
@@ -445,7 +445,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -465,7 +465,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -485,7 +485,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -506,7 +506,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
                 <p class="catogorieCardPrice ">€2,50</p>
@@ -525,7 +525,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                 </div>
@@ -545,7 +545,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/FISH.webp" alt="vis">
@@ -567,7 +567,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/FISH.webp" alt="vis">
@@ -590,7 +590,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/FISH.webp" alt="vis">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -611,7 +611,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/FISH.webp" alt="vis">
                     <img src="../images/MUSTARD.webp" alt="mosterd">
@@ -632,7 +632,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/FISH.webp" alt="vis">
                 </div>
@@ -652,7 +652,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/FISH.webp" alt="vis">
@@ -673,7 +673,7 @@
 
             <div class="catogorieCardBottomContainer">
                 <div class="catogorieCardIconContainer">
-                    <img src="../images/milk.webp" alt="melk fles">
+                    <img src="../images/MILK.webp" alt="melk fles">
                     <img src="../images/egg.webp" alt="ei">
                     <img src="../images/GLUTEN.webp" alt="gluten">
                     <img src="../images/FISH.webp" alt="vis">
