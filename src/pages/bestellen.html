@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broodjes Van Eden |Bestel Nu</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link href="../../dist/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Lora&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+<div class="bg-customGray">
+     <!--header-->
+    <div class="grid grid-cols-3 lg:hidden font-lora">
+        <div class="mt-8 ml-3 hamburger-icon" style="cursor: pointer;">
+            <iconify-icon icon="ci:hamburger-lg" style="color: #7a2d2d;" width="50" height="50"></iconify-icon>
+        </div>
+        <div class="mt-5"><img src="../images/logo.webp" alt=""></div>
+        <div class="mt-8 justify-self-end mr-5">
+           <a href="../pages/winkelwagen.php"> <img src="../images/shoppingCartSmall.webp" alt="logo"></a>
+        </div>
+    </div>
+
+      <!--nav-->
+      <div id="navbar" class="bg-customGray m-auto text-center text-gray-500 lg:hidden font-lora" >
+        <div class="hidden lg:block">
+            <img src="../images/logo.webp" alt="logo broodjes van eden" >
+        </div>
+        <div class="font-light lg:col-span-4 lg:my-auto lg:text-base">
+            <ul class="m-auto w-full lg:grid lg:grid-cols-7 lg:gap-2 ">
+                <li class="py-2  hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/home.php">Home</a> </li>
+                <li class="py-2 hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/bestellen.php">Bestel Nu</a> </li>
+                <li class="py-2  hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/ontbijtservice.php">Ontbijtservice</a> </li>
+                <li class="py-2  hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/meetingformules.php">Meetingformules</a> </li>
+                <li class="py-2 hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/galerij.php">Galerij</a> </li>
+                <li class="py-2 hover:bg-customRed hover:text-white rounded-2xl transition-all "><a href="../pages/contact.php">Contact</a> </li>
+                <div class="hidden lg:block m-auto">
+                    <img class="" src="../images/shoppingCartSmall.webp" alt="shoppingCartSmall">
+                </div>
+            </ul>
+           
+        </div>
+    </div>
+
+    <div class="hidden bg-customGray m-auto text-center text-gray-500 lg:grid lg:grid-cols-5 lg:gap-4 font-light" >
+        <div class="hidden lg:block">
+            <img src="../images/logo.webp" alt="logo">
+        </div>
+        <div class="lg:col-span-4 lg:my-auto lg:text-base">
+            <ul class="m-auto w-full lg:grid lg:grid-cols-7 lg:gap-2 ">
+                <li class="py-2  hover:border-b-2 border-customRed transition-all "><a href="../pages/home.php">Home</a> </li>
+                <li class="py-2 hover:border-b-2 border-customRed transition-all "><a href="../pages/bestellen.php">Bestel Nu</a> </li>
+                <li class="py-2  hover:border-b-2 border-customRed transition-all "><a href="../pages/ontbijtservice.php">Ontbijtservice</a> </li>
+                <li class="py-2  hover:border-b-2 border-customRed transition-all "><a href="../pages/meetingformules.php">Meetingformules</a> </li>
+                <li class="py-2 hover:border-b-2 border-customRed transition-all "><a href="../pages/galerij.php">Galerij</a> </li>
+                <li class="py-2 hover:border-b-2 border-customRed transition-all "><a href="../pages/contact.php">Contact</a> </li>
+                <div class="hidden lg:block m-auto">
+                    <a href="../pages/winkelwagen.php"><img class="" src="../images/shoppingCartSmall.webp" alt="logo"></a>
+                </div>
+            </ul>
+           
+        </div>
+    </div>
+        <!--Eind nav-->
+        <!-- CTA -->
+        <div class="text-center h-72 text-white border-t-4 border-customRed bg-no-repeat" name="CTA" style="background-image: url('../images/bestelnu.webp'); background-size: cover;">
+        <div class="bg-gray-500 relative w-full h-72  opacity-60 top-0 -mt-1"></div>
+            <h1 class="text-4xl  bg-gray-800/50 w-1/2 rounded-3xl py-2 px-4 m-auto lg:w-1/4 relative z-10 -mt-44">Bestel Nu </h1>
+        </div>
+
+        <div class="lg:grid lg:grid-cols-4 lg:m-auto">
+        <!-- Content -->
+            <div class="my-10 w-3/4 m-auto lg:col-span-3 ">
+                <h2 class="text-3xl">CATEGORIEËN </h2>
+                <p class="mt-4 lg:text-lg font-light ">
+                    Bestel vóór <span class="font-normal">10:00 uur!</span> <br>
+                    Een minimum bestelbedrag van <span class="font-normal">€12,50</span> is vereist voor levering. <br>
+                    Wij leveren uitsluitend aan zakelijke klanten en niet aan particulieren.
+                </p>
+            </div>
+            <!--zoekbalk-->
+            <div class="grid grid-cols-4 w-3/4 m-auto mr-20">
+                <div class="flex items-center col-span-3 mr-14">
+                        <input type="text" class="py-2 px-4 focus:outline-none rounded-3xl border border-customRed" placeholder="Zoeken...">
+                        <button class="py-2 px-4 rounded-md -ml-12 mt-1">
+                            <iconify-icon   iconify-icon icon="teenyicons:search-outline" style="color: #7a2d2d;" width="20" height="20"></iconify-icon>
+                        </button>
+                
+                </div>                
+            </div>
+        </div>
+        <div class="flex justify-end relative -mt-40">
+          <a href="./winkelwagen.php">  <img src="../images/Winkelmandje.webp" alt="winkelwagen"></a>
+        </div>
+        <!-- Cards -->
+
+        <div class="mt-32 grid grid-cols-2 gap-2 w-4/5 m-auto lg:grid-cols-3 lg:gap-8" >
+            <a href="./catogorie-specialiteiten.php">
+                <div class="text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:pb-28 xl:py-36" style="background-image: url('../images/specialiteiten.webp');opacity: 0.8;" alt="Belegd broodje">
+                    <h2 class="text-black w-fit text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl lg:w-2/3">Specialiteiten</h2>
+                </div>
+            </a>
+            <div class="text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/hamburger.webp');opacity: 0.8;" alt="Hamburger">
+                <h2 class="text-black w-fit text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl lg:w-2/3 ">Hamburgers</h2>
+            </div>
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/belgdeBroodjes.webp');opacity: 0.8;" alt="Belegd broodje">
+                <h2 class="text-black w-2/3 text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl">Belegde Broodjes</h2>
+            </div>
+
+            <div class=" mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:mt-0 lg:py-20 xl:py-36" style="background-image: url('../images/warmeSnacks.webp');opacity: 0.8;" alt="croque monsieur">
+                <h2 class="text-black text-2xl py-5 px-1 bg-gray-300/80 w-2/3 m-auto rounded-2xl">Warme Snacks</h2>
+            </div>
+
+
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/wraps.webp');opacity: 0.8;"alt="Wrap">
+                <h2 class="text-black w-2/3 text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl">Wraps</h2>
+            </div>
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/salades.webp');opacity: 0.8;" alt="Salades">
+                <h2 class="text-black w-2/3 text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl">Salades</h2>
+            </div>
+
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/omelet.webp');opacity: 0.8;"alt="Omelet">
+                <h2 class="text-black text-2xl py-5 px-1 bg-gray-300/80 w-2/3 m-auto rounded-2xl ">Omelet</h2>
+            </div>
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/panini.webp');opacity: 0.8;"alt="Panini">
+                <h2 class="text-black w-2/3 text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl">Panini's</h2>
+            </div>
+
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/bagelsbestellen.webp');opacity: 0.8;"alt="Bagels">
+                <h2 class="text-black text-2xl py-5 px-1 bg-gray-300/80 w-2/3 m-auto rounded-2xl">Bagels</h2>
+            </div>
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/dagsoep.webp');opacity: 0.8;"alt="Soep">
+                <h2 class="text-black w-2/3 text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl ">Dagsoep</h2>
+            </div>
+
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/Dessert.webp');opacity: 0.8;"alt="Desserts">
+                <h2 class="text-black w-2/3 text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl">Desserts</h2>
+            </div>
+            <div class="mt-4 text-center py-12 text-white bg-no-repeat bg-cover rounded-2xl lg:py-20 lg:mt-0 xl:py-36" style="background-image: url('../images/koudeDranken.webp');opacity: 0.8;"alt="frisdrank">
+                <h2 class="text-black w-2/3 text-2xl py-5 px-1 bg-gray-300/80 m-auto rounded-2xl">Koude Dranken</h2>
+            </div>
+        </div>
+       
+        <div class="font-lora">
+    
+    <div class="border-b-2 mt-20 border-gray-600 shadow-xl">  </div>
+
+    <div class="m-auto mb-20 lg:grid lg:grid-cols-3">
+        <!--div openingsuren en tabel-->
+            <div class="text-left mt-20 lg:mt-20 lg:border-r-2 w-4/5 m-auto border-customRed lg:w-full" >
+                <h2 class="font-semibold text-xl w-2/3 m-auto">Openingsuren</h2>
+
+                <table class="w-2/3 m-auto mt-10 text-gray-600 ">
+                    <tr>
+                        <td>maandag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>dinsdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>woensdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>donderdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>vrijdag</td>
+                        <td>7:30 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>zaterdag</td>
+                        <td>Gesloten</td>
+                    </tr>
+                    <tr>
+                        <td>zondag</td>
+                        <td>Gesloten</td>
+                    </tr>
+                </table>
+                <div class="border-b-2 rounded-md mt-10 w-5/6 m-auto border-customRed shadow-xl lg:hidden"></div>
+
+            </div>
+
+          
+            
+            <div class="text-center mt-20 lg:mt-20 lg:border-r-2  w-5/6 m-auto border-customRed lg:w-full">
+                <h3 class="text-xl mb-10 font-semibold">Contact</h3>
+                <span>Edenplein 15, <br>2610 Wilrijk</span>
+                <br>
+               <p class=" mt-8"> +32 3 772 19 63</p> 
+               <br>
+                <p class="mt-6 text-customRed" ><u><a href="mailto:contact@broodjesvaneden.be" > contact@broodjesvaneden.be</a></u></p> 
+                <div class="border-b-2 rounded-md mt-10 w-5/6 m-auto border-customRed shadow-xl lg:hidden "></div>
+                
+            </div>
+            
+            <div class="w-3/4 mx-auto h-fit">
+                <h3 class="font-semibold text-xl mb-10 mt-20 w-2/3 m-auto">Sociale Media</h3>
+                
+                    <table class="w-2/3 m-auto">
+                        <tr>
+                            
+                            <td><a href="https://www.facebook.com/broodjesvaneden?locale=nl_NL"><iconify-icon class="p-3 border-2 rounded-xl border-customRed" icon="iconoir:facebook" style="color: #7a2d2d;" width="20" height="20"></iconify-icon></a></td>
+                            <td><p class="flex justify-self-end"><a href="https://www.facebook.com/broodjesvaneden?locale=nl_NL">Broodjes Van Eden</a></p></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                               <a href="https://www.instagram.com/broodjesvaneden/"> <iconify-icon class="mt-3 p-3 border-2 rounded-xl border-customRed" icon="bi:instagram" style="color: #7a2d2d;" width="20" height="20"></iconify-icon></a>
+                            </td>
+                            <td><a href="https://www.instagram.com/broodjesvaneden/"><p class="flex justify-self-end">broodjesvaneden</p></a></td>
+                        </tr>
+                    </table>
+           
+
+            </div>
+            
+    </div>
+    <div class="grid grid-cols-3  bg-customRed w-full m-auto text-white text-center py-4 text-">
+        <div><a href="../pages/algemeneVoorwaarde.php">Algemene voorwaarden</a></div>
+        <div>Cookie policy</div>
+        <div>Privacy policy</div>
+    </div>
+   
+</div>
+</div>
+</body>
+</html>
+<script src="../../dist/script.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
