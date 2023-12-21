@@ -15,6 +15,7 @@ module.exports = {
         customRed: '#7A2D2D' ,
       },
       spacing: {
+        '284p': '284px',
         '50p': '50%',
       },
     },
