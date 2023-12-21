@@ -18,7 +18,7 @@
         <div class="w-4/5 m-auto lg:w-3/4">
         <div class="grid grid-cols-4 pt-10 ">
             <h1 class="font-semibold text-2xl col-span-3 ">KIES JE EXTRA'S</h1>
-            <a href="./bestellen.php" class="flex justify-self-end"><iconify-icon  icon="basil:cancel-outline" style="color: #7a2d2d;" width="40" height="40"></iconify-icon></a>
+            <a href="./bestellen.html" class="flex justify-self-end"><iconify-icon  icon="basil:cancel-outline" style="color: #7a2d2d;" width="40" height="40"></iconify-icon></a>
         </div>
 
 
@@ -192,7 +192,7 @@
                         <p class="flex justify-self-center">4</p>
                         <iconify-icon class="flex justify-self-center" icon="ph:plus" style="color: white;" width="20" height="20"></iconify-icon>
                     </div>
-                    <a href="./catogorie-specialiteiten.php" class="col-span-2">
+                    <a href="./catogorie-specialiteiten.html" class="col-span-2">
                         <p class="p-2 text-xl bg-customRed text-white rounded-3xl text-center lg:w-1/2">VOEG TOE</p>
                     </a>
                 </div>
