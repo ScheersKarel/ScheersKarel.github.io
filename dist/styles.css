@@ -45,7 +45,7 @@ input[type="checkbox"]::before {
 
   input[type="checkbox"]:checked::before {
     color: #7A2D2D; /* Kleur van het vinkje bij aangevinkte checkbox */
-    background-color: #F7F7F7; /* Achtergrondkleur bij aangevinkte checkbox */
+    background-color: transparent; /* Achtergrondkleur bij aangevinkte checkbox */
     border-color: #7A2D2D; /* Randkleur bij aangevinkte checkbox */
 
    
