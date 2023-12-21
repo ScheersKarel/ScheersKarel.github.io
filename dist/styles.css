@@ -1,0 +1,215 @@
+button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+h1{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+h2{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    
+ }
+
+input[type="checkbox"]{
+    appearance: none; 
+    -webkit-appearance: none; /* Voor oudere versies van WebKit-browsers */
+    -moz-appearance: none; /* Voor oudere versies van Firefox */
+    width: 20px; /* Aanpassen aan jouw wensen */
+    height: 20px; /* Aanpassen aan jouw wensen */
+    border: 1px solid #7A2D2D; /* Randkleur */
+    border-radius: 4px; /* Afronding van de randen */
+    outline: none; /* Verwijder de focusrand */
+    cursor: pointer; /* Verander de cursor naar pointer bij hover */
+    z-index: 10;
+}
+
+input[type="checkbox"]::before {
+    content: '\2713'; /* Unicode-teken voor een vinkje */
+    font-size: 16px; /* Grootte van het vinkje */
+    color: transparent; /* Maak de kleur van het vinkje transparant (onzichtbaar) */
+    position: absolute; /* Positioneer het vinkje ten opzichte van de checkbox */
+    transform: translate(-50%, -50%); /* Centreer het vinkje */
+   
+    border-radius: 4px;
+    height: 18px;
+    margin-left: 9px;
+    margin-top: 9px;
+  }
+
+  input[type="checkbox"]:checked::before {
+    color: #7A2D2D; /* Kleur van het vinkje bij aangevinkte checkbox */
+    background-color: #F7F7F7; /* Achtergrondkleur bij aangevinkte checkbox */
+    border-color: #7A2D2D; /* Randkleur bij aangevinkte checkbox */
+
+   
+  }
+
+
+.breakfastCard{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    background-color: hsl(26, 16%, 57%, 50%) ;
+    margin-top: 8rem ;
+    border-radius: 1.5rem;
+   
+}
+.breakfastCardTitle{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    text-align: center;
+    margin-bottom:10px ;
+}
+
+.breakfastCardImgDiv{
+    inset: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breakfastCardImg{
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin-top: -6rem;
+}
+
+.breakfastCardLine{
+    border-top-width:2px;
+    border-color: rgb(153 27 27);
+    width:80%;
+    margin:auto;
+
+}
+.breakfastCardContent{
+    width:66% ;
+    margin: auto;
+    margin-top: 0.75rem;
+    list-style-type: disc;
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+.breakfastCardPrice{
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+}
+
+.catogorieCard{
+    border: 1px solid black;
+    border-radius: 0.75rem;
+    margin-top: 2.5rem;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 1.25rem;
+    margin-top: 2rem;
+}
+.catogorieCardTitle{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.catogorieCardBottomContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1.5rem;
+}
+.catogorieCardIconContainer{
+    display: flex;
+    grid-column: span 2;
+    width: 75%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.catogorieCardPrice{
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: 5px;
+    display: flex;
+    justify-self: end;
+}
+.catogorieCardIcon{
+    display: flex;
+    justify-self: end;
+}
+
+#navbar {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, max-height 1s ease-in-out;
+    transform: translateY(-100%);
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#navbar.active {
+    transform: translateY(0);
+    opacity: 1;
+    max-height: 500px; /* of de hoogte die je wilt hebben */
+    pointer-events: auto;
+}
+
+#navbar:not(.active) {
+    transition: transform 5s ease-in-out, opacity 5s ease-in-out, max-height 1s ease-in-out; /* Aangepaste overgangsduratie voor deactiveren */
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .page {
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+  }
+
+  .page-enter {
+    animation-name: slideIn;
+  }
+
+  .page-exit {
+    animation-name: slideOut;
+  }
+
+
+@media screen and (min-width: 1024px) {
+    .breakfastCardContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        width: 75%;
+        margin: auto;
+    }
+}
+
+
+
+
